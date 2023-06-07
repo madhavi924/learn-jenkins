@@ -4,6 +4,9 @@ pipeline {
  label 'workstation'
  }
  }
+ options {
+   ansiColor('xtrem')
+   }
 
  environment {
    SAMPLE_URL="example.com"
